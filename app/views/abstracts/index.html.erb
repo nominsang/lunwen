@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Abstracts</h1>
+
+<div id="abstracts">
+  <% @abstracts.each do |abstract| %>
+    <%= render abstract %>
+    <p>
+      <%= link_to "Show this abstract", abstract %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New abstract", new_abstract_path %>

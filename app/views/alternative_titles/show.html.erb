@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @alternative_title %>
+
+<div>
+  <%= link_to "Edit this alternative title", edit_alternative_title_path(@alternative_title) %> |
+  <%= link_to "Back to alternative titles", alternative_titles_path %>
+
+  <%= button_to "Destroy this alternative title", @alternative_title, method: :delete %>
+</div>

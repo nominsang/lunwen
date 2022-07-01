@@ -36,3 +36,9 @@ zh-CN:
       powered_by: "程序支持："
     admin:
       title: "博硕毕业论文管理"
+      dashboard: "控制面板"
+      dissertations: "论文"
+      students: "学生"
+      archives-by-year: "毕业年"
+      archives-by-subjects: "学科"
+      useful_links: "常用链接"

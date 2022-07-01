@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @abstract %>
+
+<div>
+  <%= link_to "Edit this abstract", edit_abstract_path(@abstract) %> |
+  <%= link_to "Back to abstracts", abstracts_path %>
+
+  <%= button_to "Destroy this abstract", @abstract, method: :delete %>
+</div>

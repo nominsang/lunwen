@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Alternative titles</h1>
+
+<div id="alternative_titles">
+  <% @alternative_titles.each do |alternative_title| %>
+    <%= render alternative_title %>
+    <p>
+      <%= link_to "Show this alternative title", alternative_title %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New alternative title", new_alternative_title_path %>
